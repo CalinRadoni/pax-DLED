@@ -1,0 +1,491 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# calin_BD48K
+#
+DEF calin_BD48K U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "calin_BD48K" 0 -200 50 H V C CNN
+F2 "" -100 100 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "ROHM Semiconductor" 0 300 50 H I C CNN "manufacturer"
+F5 "BD48K" 0 350 50 H I C CNN "part-number"
+F6 "Standard CMOS Voltage Detector IC - Open Drain" 0 400 50 H I C CNN "characteristics"
+F7 "SSOP3 (SOT23-3)" 0 450 50 H I C CNN "package"
+$FPLIST
+ SOT-23-5
+ SOT-25
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 0 f
+X GND 1 -300 -100 100 R 50 50 1 1 P
+X OUT 2 300 0 100 L 50 50 1 1 C
+X VDD 3 -300 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_C
+#
+DEF calin_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "calin_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_CS_2
+#
+DEF calin_CS_2 J 0 40 Y N 1 F N
+F0 "J" -100 0 60 V V C CNN
+F1 "calin_CS_2" 100 0 50 V V C CNN
+F2 "" 0 50 60 H V C CNN
+F3 "" 0 50 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -50 100 50 -100 0 1 0 N
+S -20 -30 20 -70 0 1 0 F
+S -20 70 20 30 0 1 0 F
+P 2 0 1 0 -50 0 50 0 N
+X 1 1 0 200 150 D 25 25 1 1 P
+X 2 2 0 -200 150 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_CS_3
+#
+DEF calin_CS_3 J 0 40 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "calin_CS_3" 100 0 50 V V C CNN
+F2 "" 0 100 60 H V C CNN
+F3 "" 0 100 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -50 150 50 -150 0 1 0 N
+S -20 -80 20 -120 0 1 0 F
+S -20 20 20 -20 0 1 0 F
+S -20 120 20 80 0 1 0 F
+P 2 0 1 0 50 50 -50 50 N
+X 1 1 -150 100 150 R 25 25 1 1 P
+X 2 2 -150 0 150 R 25 25 1 1 P
+X 3 3 -150 -100 150 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_CS_4
+#
+DEF calin_CS_4 J 0 40 Y N 1 F N
+F0 "J" 0 250 60 H V C CNN
+F1 "calin_CS_4" 100 0 50 V V C CNN
+F2 "" 0 150 60 H V C CNN
+F3 "" 0 150 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -50 200 50 -200 0 1 0 N
+S -20 -130 20 -170 0 1 0 F
+S -20 -30 20 -70 0 1 0 F
+S -20 70 20 30 0 1 0 F
+S -20 170 20 130 0 1 0 F
+P 2 0 1 0 50 100 -50 100 N
+X 1 1 -150 150 150 R 25 25 1 1 P
+X 2 2 -150 50 150 R 25 25 1 1 P
+X 3 3 -150 -50 150 R 25 25 1 1 P
+X 4 4 -150 -150 150 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_CS_5
+#
+DEF calin_CS_5 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "calin_CS_5" 100 0 50 V V C CNN
+F2 "" 0 200 60 H V C CNN
+F3 "" 0 200 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -50 250 50 -250 0 1 0 N
+S -20 -180 20 -220 0 1 0 F
+S -20 -80 20 -120 0 1 0 F
+S -20 20 20 -20 0 1 0 F
+S -20 120 20 80 0 1 0 F
+S -20 220 20 180 0 1 0 F
+P 2 0 1 0 50 150 -50 150 N
+X 1 1 -150 200 150 R 25 25 1 1 P
+X 2 2 -150 100 150 R 25 25 1 1 P
+X 3 3 -150 0 150 R 25 25 1 1 P
+X 4 4 -150 -100 150 R 25 25 1 1 P
+X 5 5 -150 -200 150 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_ESP-WROOM-32
+#
+DEF calin_ESP-WROOM-32 U 0 40 Y Y 1 F N
+F0 "U" 0 600 60 H V C CNN
+F1 "calin_ESP-WROOM-32" 0 -100 60 V V C CNN
+F2 "" 0 -150 60 H I C CNN
+F3 "" 0 -150 60 H I C CNN
+F4 "Espressif" 0 300 50 H I C CNN "manufacturer"
+F5 "ESP32-WROOM-32" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -700 1050 700 -750 0 1 0 f
+P 2 0 1 0 -700 800 700 800 N
+X Gnd 1 -900 650 200 R 50 50 1 1 P
+X IO25 10 -900 -250 200 R 50 50 1 1 B
+X IO26 11 -900 -350 200 R 50 50 1 1 B
+X IO27 12 -900 -450 200 R 50 50 1 1 B
+X IO14 13 -900 -550 200 R 50 50 1 1 B
+X IO12 14 -900 -650 200 R 50 50 1 1 B
+X Gnd 15 -450 -950 200 U 50 50 1 1 P
+X IO13 16 -350 -950 200 U 50 50 1 1 B
+X SD2 17 -250 -950 200 U 50 50 1 1 B
+X SD3 18 -150 -950 200 U 50 50 1 1 B
+X CMD 19 -50 -950 200 U 50 50 1 1 B
+X 3V3 2 -900 550 200 R 50 50 1 1 W
+X CLK 20 50 -950 200 U 50 50 1 1 B
+X SD0 21 150 -950 200 U 50 50 1 1 B
+X SD1 22 250 -950 200 U 50 50 1 1 B
+X IO15 23 350 -950 200 U 50 50 1 1 B
+X IO2 24 450 -950 200 U 50 50 1 1 B
+X IO0 25 900 -650 200 L 50 50 1 1 B
+X IO4 26 900 -550 200 L 50 50 1 1 B
+X IO16 27 900 -450 200 L 50 50 1 1 B
+X IO17 28 900 -350 200 L 50 50 1 1 B
+X IO5 29 900 -250 200 L 50 50 1 1 B
+X EN 3 -900 450 200 R 50 50 1 1 I
+X IO18 30 900 -150 200 L 50 50 1 1 B
+X IO19 31 900 -50 200 L 50 50 1 1 B
+X nc 32 900 50 200 L 50 50 1 1 N
+X IO21 33 900 150 200 L 50 50 1 1 B
+X RXD0 34 900 250 200 L 50 50 1 1 B
+X TXD0 35 900 350 200 L 50 50 1 1 B
+X IO22 36 900 450 200 L 50 50 1 1 B
+X IO23 37 900 550 200 L 50 50 1 1 B
+X Gnd 38 900 650 200 L 50 50 1 1 P
+X Gnd 39 900 750 200 L 50 50 1 1 P
+X SENSOR_VP 4 -900 350 200 R 50 50 1 1 P
+X SENSOR_VN 5 -900 250 200 R 50 50 1 1 P
+X IO34 6 -900 150 200 R 50 50 1 1 B
+X IO35 7 -900 50 200 R 50 50 1 1 B
+X IO32 8 -900 -50 200 R 50 50 1 1 B
+X IO33 9 -900 -150 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# calin_ESP32_Strapping_Pins
+#
+DEF calin_ESP32_Strapping_Pins #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 700 250 50 H V C CNN
+F1 "calin_ESP32_Strapping_Pins" -200 250 50 H V C CNN
+F2 "" -200 -200 50 H I C CNN
+F3 "" -200 -200 50 H I C CNN
+DRAW
+T 0 -800 200 50 0 0 0 "GPIO0, pull-up, SPI Boot = 1, Download Boot = 0" Normal 0 L T
+T 0 -800 100 50 0 0 0 "GPIO2, pull-down, SPI Boot = x, Download Boot = 0" Normal 0 L T
+T 0 -800 -200 50 0 0 0 "GPIO5, pull-up (with MTDO, Timing of SDIO Slave)" Normal 0 L T
+T 0 -800 0 50 0 0 0 "MTDI (GPIO12), pull-down (Voltage of Internal LDO = 3.3V)" Normal 0 L T
+T 0 -800 -100 50 0 0 0 "MTDO (GPIO15), pull-up (debug log print on U0TXD on boot)" Normal 0 L T
+ENDDRAW
+ENDDEF
+#
+# calin_Hole
+#
+DEF ~calin_Hole H 0 40 Y Y 1 F N
+F0 "H" 150 0 60 H V C CNN
+F1 "calin_Hole" 100 -50 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# calin_IRLML2502
+#
+DEF calin_IRLML2502 Q 0 40 Y N 1 F N
+F0 "Q" 50 210 60 H V R CNN
+F1 "calin_IRLML2502" 80 -210 60 H V R CNN
+F2 "" -10 0 60 H V C CNN
+F3 "" -10 0 60 H V C CNN
+F4 "International Rectifier" 0 300 50 H I C CNN "manufacturer"
+F5 "IRLML2502GPbF" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-3" 0 450 50 H I C CNN "package"
+ALIAS BSS138
+$FPLIST
+ SOT-23-calin
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 100 -50 -100 N
+P 2 0 1 0 -10 -60 -10 -140 N
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 -10 140 -10 60 N
+P 2 0 1 8 20 0 -10 0 N
+P 2 0 1 0 90 -100 -10 -100 N
+P 2 0 1 0 180 30 120 30 N
+P 3 0 1 0 70 0 90 0 90 -100 N
+P 3 0 1 0 150 -20 150 -100 90 -100 N
+P 3 0 1 0 150 30 150 100 -10 100 N
+P 4 0 1 0 70 40 20 0 70 -40 70 40 N
+P 4 0 1 0 150 30 120 -20 180 -20 150 30 N
+X D D 150 200 100 D 40 40 1 1 P
+X G G -200 0 150 R 40 40 1 1 I
+X S S 150 -200 100 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_InductorFB
+#
+DEF calin_InductorFB L 0 40 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "calin_InductorFB" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+S -110 40 110 -40 0 1 0 F
+X 1 1 -200 0 89 R 50 50 1 1 P
+X 2 2 200 0 89 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_LED
+#
+DEF calin_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "calin_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_R
+#
+DEF calin_R R 0 0 N Y 1 F N
+F0 "R" 80 0 40 V V C CNN
+F1 "calin_R" 7 1 40 V V C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 100 40 -100 0 1 10 N
+X ~ 1 0 150 50 D 60 60 1 1 P
+X ~ 2 0 -150 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_SN74LV1T34
+#
+DEF calin_SN74LV1T34 U 0 40 Y Y 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "calin_SN74LV1T34" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Texas Instruments" 0 300 50 H I C CNN "manufacturer"
+F5 "SN74LV1T34DBVR" 0 350 50 H I C CNN "part-number"
+F6 "Single Power Supply Single Buffer GATE CMOS Logic Level Shifter" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-5" 0 450 50 H I C CNN "package"
+$FPLIST
+ SOT23-5
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 0 f
+X ~ 1 -300 100 100 R 50 50 1 1 N
+X A 2 -400 0 200 R 50 50 1 1 I
+X Gnd 3 -400 -100 200 R 50 50 1 1 P
+X Y 4 400 -100 200 L 50 50 1 1 O
+X Vcc 5 400 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_STD46P4LLF6
+#
+DEF calin_STD46P4LLF6 Q 0 40 Y Y 1 F N
+F0 "Q" -200 250 60 H V C CNN
+F1 "calin_STD46P4LLF6" 250 100 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "STMicroelectronics" 0 300 50 H I C CNN "manufacturer"
+F5 "STD46P4LLF6" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "DPAK (TO-252)" 0 450 50 H I C CNN "package"
+ALIAS FDD4685
+$FPLIST
+ DPAK
+ TO-252
+$ENDFPLIST
+DRAW
+P 2 0 0 0 -50 -25 -50 25 N
+P 2 0 0 0 -50 75 -50 125 N
+P 2 0 0 0 -50 175 -50 225 N
+P 3 0 0 0 -100 200 -100 0 -150 0 N
+P 3 0 0 0 150 75 125 125 175 125 F
+P 4 0 0 0 -50 100 50 100 50 0 -50 0 N
+P 4 0 0 0 50 0 150 0 150 200 -50 200 N
+P 2 0 1 0 175 75 125 75 N
+P 4 0 1 0 0 125 50 100 0 75 0 125 F
+X ~ 1 -300 0 150 R 50 50 1 1 P
+X ~ 2 100 350 150 D 50 50 1 1 P
+X ~ 3 100 -150 150 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# calin_Symbol_Generic
+#
+DEF calin_Symbol_Generic SYM 0 40 Y Y 1 F N
+F0 "SYM" 150 0 50 H I C CNN
+F1 "calin_Symbol_Generic" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+P 5 0 1 0 0 50 -50 0 0 -50 50 0 0 50 N
+ENDDRAW
+ENDDEF
+#
+# calin_TLV62569DBV
+#
+DEF calin_TLV62569DBV U 0 40 Y Y 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "calin_TLV62569DBV" 0 -200 60 H V C CNN
+F2 "" -100 100 60 H I C CNN
+F3 "" 0 200 60 H I C CNN
+F4 "Texas Instruments" 0 300 50 H I C CNN "manufacturer"
+F5 "TLV62569DBV" 0 350 50 H I C CNN "part-number"
+F6 "Step-Down Converter 2A 1.5MHz Iq=35uA" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-5" 0 450 50 H I C CNN "package"
+$FPLIST
+ SOT23-5
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 0 f
+X EN 1 -350 0 150 R 50 50 1 1 P
+X GND 2 -350 -100 150 R 50 50 1 1 P
+X SW 3 350 100 150 L 50 50 1 1 w
+X VIN 4 -350 100 150 R 50 50 1 1 W
+X FB 5 350 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5VL
+#
+DEF power_+5VL #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5VL" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5VL 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

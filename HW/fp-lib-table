@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name CalinGeneric)(type KiCad)(uri /data/Projects/KiCad-Calin/CalinGeneric.pretty)(options "")(descr ""))
+  (lib (name CalinConnectors)(type KiCad)(uri /data/Projects/KiCad-Calin/CalinConnectors.pretty)(options "")(descr ""))
+  (lib (name CalinBoxes)(type KiCad)(uri /data/Projects/KiCad-Calin/CalinBoxes.pretty)(options "")(descr ""))
+  (lib (name CalinShields)(type KiCad)(uri /data/Projects/KiCad-Calin/CalinShields.pretty)(options "")(descr ""))
+)

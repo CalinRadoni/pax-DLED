@@ -1,0 +1,8 @@
+# ignore KiCad backup files
+*.bak
+*.kicad_pcb-bak
+
+# ignore archives
+*.7z
+*.zip
+

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name calin)(type Legacy)(uri /data/Projects/calin.lib)(options "")(descr ""))
+)
