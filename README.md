@@ -32,7 +32,7 @@ Operating system is [Debian](https://www.debian.org/)
 
 Tools:
 
-- [KiCad EDA](http://kicad-pcb.org/)
+- [KiCad EDA](https://kicad.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Espressif IoT Development Framework](https://github.com/espressif/esp-idf)
 - [Git](https://git-scm.com/)
